@@ -15,7 +15,7 @@ ggplot(data, aes(x = x, y = y)) +
     title = "Linear Fit to Exponential Relation",
     x = 'X',
     y = 'Y',
-    ) +
+  ) +
   theme(
     axis.title.y = element_text(angle = 0, vjust = 0.5),
     plot.background = element_rect(fill = "white", colour = "white"),
